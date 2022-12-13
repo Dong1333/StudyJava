@@ -1,6 +1,7 @@
 package CollectionPrj;
 
 // 정수형을 관리하는 컬랙션 만들어보기
+// 추후 컬렉션 프레임 워크 사용 예정
 public class IntList {
 
     // 배열의 크기, 인덱스 번호를 의미하는 변수들 선언
@@ -39,3 +40,8 @@ public class IntList {
         return nums[index];
     }
 }
+
+
+O
+
+
