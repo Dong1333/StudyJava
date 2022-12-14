@@ -2,6 +2,7 @@ package CollectionPrj;
 
 public class Program {
     public static void main(String[] args) {
+        // IntList 사용할 메인 코드
         // list 객체 생성, size, 현재 값 을 담을 변수 선언
         IntList list = new IntList();
         int size = 0;
