@@ -8,7 +8,7 @@ public class Program {
     public static void main(String[] args) {
         // IntList,ObjectList  사용할 메인 코드
         // list 객체 생성, list의 사이즈, list의 현재 값을 담을 변수 선언
-        ObjectList list = new ObjectList();
+        GList<Integer> list = new GList<Integer>();
         int size = 0;
         int num = 0;
         // list에 3, 5 추가 후 size값을 받고 출력
@@ -30,7 +30,7 @@ public class Program {
         System.out.printf("num :  %d \n", num);
 
         // 현재 배열 1(2번째 위치)에 값이 없으므로 오류 출력
-        // num = (Integer) list.get(1);
+        // num = (Integer) list.get(1);*/
 
     }
 }
